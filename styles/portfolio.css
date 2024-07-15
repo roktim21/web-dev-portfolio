@@ -1,0 +1,211 @@
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 300 to 800 */
+
+.open-sans-mary{
+  font-family:iquifier "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+/* Shared Style */
+
+.text-primary{
+    color: #FD6E0A;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+
+    
+}
+
+.header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    /* image right r left e pathano */
+    background-position: top left, bottom right;
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+.nav-title{
+    font-weight: 800px;
+    font-size: 45px;
+
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.btn{
+    
+    background-color: #FD6E0A;
+    font-weight:  bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 36px;
+    border-radius: 5px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    font-size: 20px;
+    list-style: none;
+    margin-right: 50px;
+
+    
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+/* Banner details */
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:  0px 46px 0px 222px;
+}
+
+.gretting{
+    color: #474747;
+        font: 600px;
+        font-size: 45px;
+}
+
+.name{
+    color: #181818;
+    font: bold;
+    font-size: 85px;
+}
+
+.description{
+    color: #757575;
+    font-size: 18px;
+}
+
+.banner-profile{
+    width: 580px;
+}
+
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 156px;
+    margin-top: 130px;
+}
+.about-me{
+    background-color: white;
+    border: 2px solid black;
+   
+    
+}
+
+.about-items{
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+.short-details{
+    margin-top: 130px;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    border-radius: 5px;
+}
+
+.skill{
+    padding: 104px 33px 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.summary{
+    display: flex;
+    gap: 24px;
+}
+.my-title{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.my-description{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+}
+
+.degree-details{
+    font-size: 16px;
+    color: #757575;
+}
+.cv-btn{
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 50px;
+    
+}
+
+
+
+.last{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.last-margin{
+    margin: 0 230px;
+}
+
+.form{
+    font: #757575;
+    border-radius: 5px;
+}
